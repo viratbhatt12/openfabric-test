@@ -1,0 +1,46 @@
+{
+    "intents": [
+        {
+            "tag": "science_intro",
+            "patterns": ["What is science?", "Tell me about science", "Define science"],
+            "responses": ["Science is a systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe.", "Science is the pursuit and application of knowledge and understanding of the natural world through systematic observation and experimentation."],
+            "context_set": ""
+        },
+        {
+            "tag": "scientific_method",
+            "patterns": ["What is the scientific method?", "Explain the scientific method", "How does the scientific method work?"],
+            "responses": ["The scientific method is a systematic, logical approach scientists use to investigate natural phenomena. It involves making observations, forming hypotheses, conducting experiments, and drawing conclusions.", "The scientific method is a process of inquiry that involves making observations, forming a hypothesis, conducting experiments, analyzing data, and drawing conclusions."],
+            "context_set": ""
+        },
+        {
+            "tag": "biology",
+            "patterns": ["Tell me about biology", "What is biology?", "Explain the study of living organisms"],
+            "responses": ["Biology is the scientific study of living organisms and their interactions with each other and their environments.", "Biology explores the structure, function, growth, evolution, distribution, and taxonomy of living organisms."],
+            "context_set": ""
+        },
+        {
+            "tag": "physics",
+            "patterns": ["What is physics?", "Explain the principles of physics", "Tell me about the study of matter and energy"],
+            "responses": ["Physics is the branch of science that deals with the fundamental components of the universe, the forces they exert on one another, and the results produced by these forces.", "Physics explores the properties and behavior of matter and energy at the most fundamental level."],
+            "context_set": ""
+        },
+        {
+            "tag": "chemistry",
+            "patterns": ["Tell me about chemistry", "What is chemistry?", "Explain the study of substances and their properties"],
+            "responses": ["Chemistry is the branch of science that deals with the composition, structure, properties, and changes of matter.", "Chemistry explores the interactions between different types of matter and the energy changes that accompany those processes."],
+            "context_set": ""
+        },
+        {
+            "tag": "astronomy",
+            "patterns": ["What is astronomy?", "Explain the study of celestial objects", "Tell me about space science"],
+            "responses": ["Astronomy is the scientific study of celestial objects such as stars, planets, comets, and galaxies, as well as the phenomena that occur outside Earth's atmosphere.", "Astronomy explores the vastness of the universe and the properties of objects beyond our planet."],
+            "context_set": ""
+        },
+        {
+            "tag": "scientific_discoveries",
+            "patterns": ["What are some famous scientific discoveries?", "Tell me about important scientific breakthroughs", "Explain notable advancements in science"],
+            "responses": ["There have been numerous significant scientific discoveries throughout history, including the theory of relativity, the discovery of DNA's structure, and the development of the periodic table.", "Scientific breakthroughs have shaped our understanding of the world, such as the discovery of antibiotics, the invention of the telescope, and the identification of the structure of atoms."],
+            "context_set": ""
+        }
+    ]
+}
