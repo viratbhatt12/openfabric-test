@@ -1,6 +1,11 @@
 {
     "intents": [
         {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Hey", "Greetings", "Good day"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! What can I help you with?", "Greetings! How may I be of service?"]
+        },
+        {
             "tag": "science_intro",
             "patterns": ["What is science?", "Tell me about science", "Define science"],
             "responses": ["Science is a systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe.", "Science is the pursuit and application of knowledge and understanding of the natural world through systematic observation and experimentation."],
@@ -40,6 +45,18 @@
             "tag": "scientific_discoveries",
             "patterns": ["What are some famous scientific discoveries?", "Tell me about important scientific breakthroughs", "Explain notable advancements in science"],
             "responses": ["There have been numerous significant scientific discoveries throughout history, including the theory of relativity, the discovery of DNA's structure, and the development of the periodic table.", "Scientific breakthroughs have shaped our understanding of the world, such as the discovery of antibiotics, the invention of the telescope, and the identification of the structure of atoms."],
+            "context_set": ""
+        },
+        {
+            "tag": "scientific_instruments",
+            "patterns": ["Tell me about scientific instruments", "What role do instruments play in scientific research?", "Explain the importance of tools in science"],
+            "responses": ["Scientific instruments are crucial tools used in research to observe, measure, and analyze natural phenomena. They enhance precision and accuracy in scientific investigations.", "Instruments in science, such as microscopes, telescopes, and spectrometers, play a vital role in gathering data and expanding our understanding of the world."],
+            "context_set": ""
+        },
+        {
+            "tag": "scientific_ethics",
+            "patterns": ["Discuss scientific ethics", "What ethical considerations are important in research?", "Explain the role of ethics in scientific endeavors"],
+            "responses": ["Scientific ethics involve principles that guide the conduct of researchers, ensuring integrity, honesty, and respect for participants. Ethical considerations are crucial for maintaining the credibility and trustworthiness of scientific work.", "In the realm of science, ethical standards are essential to uphold the well-being of subjects, the integrity of data, and the responsible dissemination of research findings."],
             "context_set": ""
         }
     ]
