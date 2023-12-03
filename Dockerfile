@@ -4,5 +4,8 @@ RUN mkdir cognitive-assistant
 WORKDIR /cognitive-assistant
 COPY . .
 RUN poetry install -vvv --no-dev
+
+RUN pip install -r requirements.txt
+
 EXPOSE 5000
 CMD ["sh","start.sh"]
